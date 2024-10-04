@@ -39,6 +39,24 @@ nav a{
     transition: color 500ms;
 }
 
+table{
+    color: white;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    margin-left: 850px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+th{
+    background-color: #006db066;
+}
+
+td{
+    border: 1px solid #ffffff80;
+}
+
 nav .effect:hover{
     color: #006eb0;
     transition: color 500ms;
@@ -70,4 +88,33 @@ article{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
+
+.contacts{
+    background-color: rgba(0, 0, 0, 0.749);
+    border: 2px solid white;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.socials{
+    background-color: rgba(181, 181, 181, 0.499);
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 600px;
+    margin-right: 600px;
+    text-align: center;
+}
+
+
+
