@@ -64,9 +64,9 @@ nav .effect:hover{
 
 article{
     width: 500px;
-    padding: 75px;
-    padding-top: 150px;
+    padding-top: 175px;
     padding-bottom: 150px;
+    padding-left: 150px;
     text-align: center;
 }
 
@@ -116,5 +116,21 @@ article{
     text-align: center;
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+}
+  
 
+.row:after {
+    display: table;
+    clear: both;
+}
 
+.foto-me{
+    width: 350px;
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-top: 80px;
+    box-shadow: 0 0 20px #006eb0;
+}
