@@ -1,6 +1,6 @@
 h1{
     font-family: sans-serif;
-    color: #006eb0;
+    color: rgb(0, 110, 176);
 }
 
 p{
@@ -18,8 +18,8 @@ body{
 }
 
 header{
-    text-align: center;
     height: 50px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,14 +39,30 @@ nav a{
     transition: color 500ms;
 }
 
+nav .effect:hover{
+    color: #006eb0;
+    transition: color 500ms;
+}
+
+video{
+    height: 300px;
+    width: 550px;
+}
+
+.vid-tab{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    margin-top: 125px;
+}
+
 table{
     color: white;
     text-align: center;
     width: 500px;
     height: 250px;
-    margin-left: 850px;
-    margin-top: 140px;
-    margin-bottom: 140px;
 }
 
 th{
@@ -57,16 +73,8 @@ td{
     border: 1px solid #ffffff80;
 }
 
-nav .effect:hover{
-    color: #006eb0;
-    transition: color 500ms;
-}
-
 article{
     width: 500px;
-    padding-top: 175px;
-    padding-bottom: 150px;
-    padding-left: 150px;
     text-align: center;
 }
 
@@ -91,7 +99,7 @@ article{
 }
 
 .contacts{
-    background-color: rgba(0, 0, 0, 0.749);
+    background-color: rgba(0, 0, 0, 0.750);
     border: 2px solid white;
     color: white;
     border-radius: 25px;
@@ -100,9 +108,8 @@ article{
     justify-content: center;
     flex-direction: column;
     padding: 50px;
-    margin-top: 50px;
-    margin-left: 450px;
-    margin-right: 450px;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .socials{
@@ -110,27 +117,57 @@ article{
     border: 2px solid white;
     border-radius: 25px;
     padding: 5px;
-    margin-top: 20px;
-    margin-left: 600px;
-    margin-right: 600px;
     text-align: center;
+    width: 300px;
+    margin: 0 auto;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-}
-  
-
-.row:after {
-    display: table;
-    clear: both;
+.social-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
 }
 
 .foto-me{
     width: 350px;
     border-radius: 15px;
-    margin-left: 250px;
-    margin-top: 80px;
-    box-shadow: 0 0 20px #006eb0;
+    box-shadow: 0 0 20px rgb(0, 110, 176);
 }
+
+.about-foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-top: 50px;
+}
+
+.polaroid {
+    background-color: #000000a8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    border-radius: 25px;
+}
+
+.container {
+    text-align: center;
+}
+
+.img-polaroid{
+    width: 400px;
+    height: 225px;
+    border-radius: 25px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 35px;
+}
+
+
