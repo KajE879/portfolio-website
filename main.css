@@ -39,7 +39,7 @@ nav a{
     transition: color 500ms;
 }
 
-nav .effect:hover{
+.effect:hover{
     color: #006eb0;
     transition: color 500ms;
 }
@@ -112,8 +112,14 @@ article{
     margin: 0 auto;
 }
 
+p a{
+    text-decoration: none;
+    color: rgba(180, 180, 180, 0.750);
+    transition: color 500ms;
+}
+
 .socials{
-    background-color: rgba(181, 181, 181, 0.499);
+    background-color: rgba(180, 180, 180, 0.499);
     border: 2px solid white;
     border-radius: 25px;
     padding: 5px;
@@ -160,6 +166,10 @@ article{
     width: 400px;
     height: 225px;
     border-radius: 25px;
+}
+
+.link-pol{
+    text-decoration: none;
 }
 
 .projects{
