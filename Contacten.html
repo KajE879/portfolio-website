@@ -4,45 +4,49 @@
 <head>
     <title>Contacten</title>
     <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <header>
         <a href="index.html">
-        <img src="images/logo.png" alt="" width="75px">
+        <img src="images/logo.png" alt="website logo" width="75px">
         </a>
     </header>
     <nav>
-        <a class="effect" :hover href="index.html">Home</a>
-        <a class="effect" :hover href="Ervaringen.html">Ervaringen</a>
-        <a class="effect" :hover href="Contacten.html">Contacten</a>
-        <a class="effect" :hover href="Projecten.html">Projecten</a>
+        <ul>
+            <li><a class="effect" href="index.html">Home</a></li>
+            <li><a class="effect" href="Ervaringen.html">Ervaringen</a></li>
+            <li><a class="effect" href="Contacten.html">Contacten</a></li>
+            <li><a class="effect" href="Projecten.html">Projecten</a></li>
+        </ul>
     </nav>
-    <div class="social-contact">
+    <main class="social-contact">
         <div class="contacts">
             <h1>Contacts:</h1>
             <p>Private-Email: 
-                <a class="effect" :hover href="mailto:kajvanes8@gmail.com">kajvanes8@gmail.com</a>
+                <a class="effect" href="mailto:kajvanes8@gmail.com">kajvanes8@gmail.com</a>
             </p>
             <p>School-Email: 
-                <a class="effect" :hover href="mailto:9024897@student.zadkine.nl">9024897@student.zadkine.nl</a>
+                <a class="effect" href="mailto:9024897@student.zadkine.nl">9024897@student.zadkine.nl</a>
             </p>
             <p>Phone-number: 
-                <a class="effect" :hover href="tel:+3114103021">+31 6 14103021</a>
+                <a class="effect" href="tel:+3114103021">+31 6 14103021</a>
             </p>
         </div>
         <div class="socials">
-            <a href="https://www.instagram.com/kaje_010/">
-                <img src="images/instagram.png" alt="instagram logo" width="60px">
+            <a href="https://www.instagram.com/kaje_010/" aria-label="Instagram profile for kaje_010">
+                <img src="images/instagram.png" alt="Instagram logo" width="60px">
             </a>
-            <a href="https://github.com/KajE879">
-                <img src="images/github.png" alt="github logo" width="60px">
+            <a href="https://github.com/KajE879" aria-label="Github profile for KajE879">
+                <img src="images/github.png" alt="Github logo" width="60px">
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100084433671737">
-                <img src="images/facebook.png" alt="facebook logo" width="60px">
+            <a href="https://www.facebook.com/profile.php?id=100084433671737" aria-label="Facebook profile for Kaj van Es">
+                <img src="images/facebook.png" alt="Facebook logo" width="60px">
             </a>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>

@@ -4,41 +4,48 @@
 <head>
     <title>Ervaringen</title>
     <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <header>
         <a href="index.html">
-        <img src="images/logo.png" alt="" width="75px">
+            <img src="images/logo.png" alt="website logo" width="75px">
         </a>
     </header>
     <nav>
-        <a class="effect" :hover href="index.html">Home</a>
-        <a class="effect" :hover href="Ervaringen.html">Ervaringen</a>
-        <a class="effect" :hover href="Contacten.html">Contacten</a>
-        <a class="effect" :hover href="Projecten.html">Projecten</a>
+        <ul>
+            <li><a class="effect" href="index.html">Home</a></li>
+            <li><a class="effect" href="Ervaringen.html">Ervaringen</a></li>
+            <li><a class="effect" href="Contacten.html">Contacten</a></li>
+            <li><a class="effect" href="Projecten.html">Projecten</a></li>
+        </ul>
     </nav>
     <div class="erv-main">
         <video class="erv-left" controls>
-            <source src="" type="">
-            <source src="" type="">
+            <source src="video.mp4" type="video/mp4">
         </video>
         <table class="erv-right">
-            <tr>
-                <th>Tijd</th>
-                <th>Niveau</th>
-                <th>Plaats</th>
-            </tr>
-            <tr>
-                <td>Sep 2020 - Jul 2024</td>
-                <td>Havo 1 t/m 4</td>
-                <td>Comenius college capelle</td>
-            </tr>
-            <tr>
-                <td>Sep 2024 - Nu</td>
-                <td>Mbo 4</td>
-                <td>Techniek college Rotterdam</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Tijd</th>
+                    <th>Niveau</th>
+                    <th>Plaats</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Sep 2020 - Jul 2024</td>
+                    <td>Havo 1 t/m 4</td>
+                    <td>Comenius college capelle</td>
+                </tr>
+                <tr>
+                    <td>Sep 2024 - Nu</td>
+                    <td>Mbo 4</td>
+                    <td>Techniek college Rotterdam</td>
+                </tr>
+            </tbody>
         </table>
     </div>
 </body>
