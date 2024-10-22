@@ -49,15 +49,6 @@ video{
     width: 550px;
 }
 
-.vid-tab{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    gap: 200px;
-    margin-top: 125px;
-}
-
 table{
     color: white;
     text-align: center;
@@ -142,15 +133,6 @@ p a{
     box-shadow: 0 0 20px rgb(0, 110, 176);
 }
 
-.about-foto{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 300px;
-    margin-top: 50px;
-}
-
 .polaroid {
     background-color: #000000a8;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -180,4 +162,28 @@ p a{
     margin-top: 35px;
 }
 
+.index-main{
+    display: flex;
+    flex-direction: row;
+}
 
+.index-left{
+    margin: 150px 150px 0px 100px;
+}
+
+.index-right{
+    margin: 50px 100px 0px 150px;
+}
+
+.erv-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.erv-left{
+    margin: 125px 100px 0px 100px;
+}
+
+.erv-right{
+    margin: 150px 100px 0px 100px;
+}
