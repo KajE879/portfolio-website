@@ -4,7 +4,7 @@
         gap: 20px; /* Maak de tussenruimte kleiner */
     }
 
-    .polaroid {
+    .polaroid .container .projects {
         flex-direction: column; /* Stapel elementen onder elkaar */
         gap: 30px;
         margin-top: 20px;
