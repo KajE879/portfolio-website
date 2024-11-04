@@ -1,3 +1,32 @@
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 20px; /* Maak de tussenruimte kleiner */
+    }
+
+    .projects, .erv-main {
+        flex-direction: column; /* Stapel elementen onder elkaar */
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .contacts, .socials, .article, .table {
+        width: 90%; /* Maak elementen breder op het scherm */
+        margin: 0 auto;
+    }
+
+    .button-CV {
+        width: 100%; /* Zorg dat knoppen zich aanpassen aan de breedte */
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .foto-me, .img-polaroid {
+        width: 100%; /* Pas afbeeldingen aan de schermbreedte aan */
+        height: auto;
+    }
+}
+
 h1{
     font-family: sans-serif;
     color: rgb(0, 110, 176);
