@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px; /* Maak de tussenruimte kleiner */
     }
 
