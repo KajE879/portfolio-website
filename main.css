@@ -1,42 +1,43 @@
+    /*phone*/
 @media (max-width: 600px) {
     nav ul {
         flex-direction: row;
-        gap: 20px; /* Maak de tussenruimte kleiner */
+        gap: 20px;
     }
-
-    .polaroid .container .projects {
-        flex-direction: column; /* Stapel elementen onder elkaar */
+    .projects .index-main .erv-main{
+        flex-direction: column; 
         gap: 30px;
         margin-top: 20px;
     }
-
     .contacts, .socials, .article, .table {
-        width: 90%; /* Maak elementen breder op het scherm */
+        width: 90%; 
         margin: 0 auto;
     }
-
     .button-CV {
-        width: 100%; /* Zorg dat knoppen zich aanpassen aan de breedte */
+        width: 100%; 
         font-size: 14px;
         padding: 10px 20px;
     }
-
-    .foto-me, .img-polaroid {
-        width: 100%; /* Pas afbeeldingen aan de schermbreedte aan */
+    .foto-me {
+        width: 100%; 
         height: auto;
     }
 }
 
+
+
+    /*Main*/
 h1{
     font-family: sans-serif;
     color: rgb(0, 110, 176);
 }
-
 p{
     font-family: arial;
     color: white;
 }
-
+.text-roman{
+    font-family: 'Times New Roman', Times, serif;
+}
 body{
     background-image: url(images/background.jpg);
     background-color: #000000;
@@ -45,70 +46,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-header{
-    height: 50px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-nav {
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-nav ul {
-    display: flex; 
-    list-style: none; 
-    padding: 0; 
-    margin: 0;
-    gap: 50px; 
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    transition: color 500ms;
-}
-
-.effect:hover {
-    color: #006eb0;
-    transition: color 500ms;
-}
-
-video{
-    height: 300px;
-    width: 550px;
-}
-
-table{
-    color: white;
-    text-align: center;
-    width: 500px;
-    height: 250px;
-}
-
-thead{
-    height: 50px;
-}
-
-th{
-    background-color: #006db066;
-}
-
-td{
-    border: 1px solid #ffffff80;
-}
-
-article{
-    width: 500px;
-    text-align: center;
-}
-
 .text-blue{
     color: #006eb0;
 }
@@ -117,18 +54,141 @@ article{
     font-weight: bold;
 }
 
-.button-CV {
-    background-color: rgb(0, 110, 176);
-    padding: 15px 32px;
-    border: 2px solid white;
+
+
+    /*ervaringen-video*/
+.erv-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 125px 0px 0px 100px;
+    gap: 200px;
+}
+video{
+    height: 300px;
+    width: 550px;
+}
+
+
+
+    /*header-nav*/
+header{
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+    gap: 50px; 
+}
+nav a {
     color: white;
-    border-radius: 25px;
+    text-decoration: none;
+    transition: color 500ms;
+}
+.effect:hover {
+    color: #006eb0;
+    transition: color 500ms;
+}
+
+
+
+    /*Table*/
+table{
+    color: white;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+}
+thead{
+    height: 50px;
+}
+th{
+    background-color: #006db066;
+}
+td{
+    border: 1px solid #ffffff80;
+}
+
+
+
+    /*Index*/
+.button-CV {
+    background-color: rgba(0, 109, 176, 0.5);
+    padding: 15px 45px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
 }
+article{
+    width: 500px;
+    text-align: left;
+    padding: 20px;
+    border-left: solid 2px white;
+}
+.foto-me{
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(0, 110, 176);
+}
+.index-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 0px 50px 75px;
+    gap: 230px;
+}
+.contact-cv{
+    display: flex;
+    gap: 25px;
+}
 
+
+
+    /*Projects*/
+.polaroid {
+    background-color: #000000a8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    border-radius: 25px;
+}
+.container {
+    text-align: center;
+}
+.img-polaroid{
+    width: 400px;
+    height: 225px;
+    border-radius: 25px;
+}
+.link-pol{
+    text-decoration: none;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 35px;
+}
+
+
+
+    /*contact*/
 .contacts{
     background-color: rgba(0, 0, 0, 0.750);
     border: 2px solid white;
@@ -142,13 +202,11 @@ article{
     width: 500px;
     margin: 0 auto;
 }
-
 p a{
     text-decoration: none;
     color: rgba(180, 180, 180, 0.750);
     transition: color 500ms;
 }
-
 .socials{
     background-color: rgba(180, 180, 180, 0.499);
     border: 2px solid white;
@@ -158,7 +216,6 @@ p a{
     width: 300px;
     margin: 0 auto;
 }
-
 .social-contact{
     display: flex;
     flex-direction: column;
@@ -166,64 +223,35 @@ p a{
     gap: 15px;
     margin-top: 50px;
 }
-
-.foto-me{
-    width: 350px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgb(0, 110, 176);
+.contact-form {
+    width: 100%;
 }
-
-.polaroid {
-    background-color: #000000a8;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 400px;
-    border-radius: 25px;
+.contact-form h2 {
+    margin-bottom: 15px;
+    color: white;
 }
-
-.container {
-    text-align: center;
+.contact-form label {
+    font-size: 14px;
+    color: white;
 }
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 
-.img-polaroid{
-    width: 400px;
-    height: 225px;
-    border-radius: 25px;
 }
-
-.link-pol{
-    text-decoration: none;
+.contact-form button {
+    padding: 10px 15px;
+    color: #fff;
+    background-color: rgba(180, 180, 180, 0.499);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 500ms;
 }
-
-.projects{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 35px;
-}
-
-.index-main{
-    display: flex;
-    flex-direction: row;
-}
-
-.index-left{
-    margin: 150px 150px 0px 100px;
-}
-
-.index-right{
-    margin: 50px 100px 0px 150px;
-}
-
-.erv-main{
-    display: flex;
-    flex-direction: row;
-}
-
-.erv-left{
-    margin: 125px 100px 0px 100px;
-}
-
-.erv-right{
-    margin: 150px 100px 0px 100px;
+.contact-form button:hover {
+    background-color: rgb(0, 110, 176);
 }
