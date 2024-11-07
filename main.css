@@ -1,37 +1,4 @@
-/* Main adjustments for mobile */
-@media (max-width: 600px) {
-    .erv-main, .index-main, .projects, .contact-cv, .social-contact {
-        flex-direction: column;
-        gap: 20px; /* Adjust gap for spacing */
-    }
-
-    /* Center text and elements within containers */
-    header, nav, .erv-main, .index-main, .projects, .contacts, .social-contact {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /* Make sure images and videos are responsive */
-    video, .foto-me, .img-polaroid {
-        width: 100%;
-        height: auto;
-    }
-
-    /* Ensure tables fit within mobile screens */
-    table {
-        width: 100%;
-        font-size: 0.9em; /* Adjust font size for better readability */
-    }
-    
-    /* Full width for contact form elements */
-    .contact-form input, .contact-form textarea {
-        width: 100%;
-    }
-}
-
-
-    /*Main*/
+   /*Main*/
 h1{
     font-family: sans-serif;
     color: rgb(0, 110, 176);
