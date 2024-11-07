@@ -31,6 +31,11 @@ h1{
     font-family: sans-serif;
     color: rgb(0, 110, 176);
 }
+h2{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
 p{
     font-family: arial;
     color: white;
@@ -59,9 +64,10 @@ body{
     /*ervaringen-video*/
 .erv-main{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    margin: 125px 0px 0px 100px;
+    min-height: 80vh;
+    flex-direction: row;
     gap: 200px;
 }
 video{
@@ -148,10 +154,11 @@ article{
 }
 .index-main{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    margin: 50px 0px 50px 75px;
-    gap: 230px;
+    min-height: 80vh;
+    flex-direction: row;
+    gap: 300px;
 }
 .contact-cv{
     display: flex;
@@ -180,8 +187,10 @@ article{
 }
 .projects{
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    flex-direction: row;
     gap: 50px;
     margin-top: 35px;
 }
@@ -198,9 +207,8 @@ article{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 50px;
+    padding: 30px;
     width: 500px;
-    margin: 0 auto;
 }
 p a{
     text-decoration: none;
@@ -218,10 +226,12 @@ p a{
 }
 .social-contact{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    gap: 15px;
-    margin-top: 50px;
+    align-items: center;
+    min-height: 80vh;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
 }
 .contact-form {
     width: 100%;
@@ -238,7 +248,7 @@ p a{
 .contact-form textarea {
     width: 100%;
     padding: 10px;
-    margin: 5px 0;
+    margin: 3px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
 
