@@ -1,24 +1,24 @@
     /*phone*/
 @media (max-width: 600px) {
-    nav ul {
+    nav ul{
         flex-direction: row;
-        gap: 20px;
+        gap: 16px;
     }
-    .projects .index-main .erv-main{
+    .index-main .erv-main .projects{
         flex-direction: column; 
-        gap: 30px;
+        gap: 20px;
         margin-top: 20px;
     }
-    .contacts, .socials, .article, .table {
+    .contacts, .socials, .article, .table{
         width: 90%; 
         margin: 0 auto;
     }
-    .button-CV {
+    .button-CV{
         width: 100%; 
-        font-size: 14px;
+        font-size: 0.875em;
         padding: 10px 20px;
     }
-    .foto-me {
+    .foto-me{
         width: 100%; 
         height: auto;
     }
@@ -30,15 +30,17 @@
 h1{
     font-family: sans-serif;
     color: rgb(0, 110, 176);
+    font-size: 1.7em;
 }
 h2{
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 p{
     font-family: arial;
     color: white;
+    font-size: 1em;
 }
 .text-roman{
     font-family: 'Times New Roman', Times, serif;
@@ -139,7 +141,7 @@ td{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1em;
 }
 article{
     width: 500px;
@@ -241,7 +243,7 @@ p a{
     color: white;
 }
 .contact-form label {
-    font-size: 14px;
+    font-size: 1.875em;
     color: white;
 }
 .contact-form input,
@@ -259,7 +261,6 @@ p a{
     background-color: rgba(180, 180, 180, 0.499);
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     transition: color 500ms;
 }
 .contact-form button:hover {
