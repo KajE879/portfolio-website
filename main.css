@@ -5,6 +5,10 @@
         gap: 16px;
     }
     .index-main .erv-main .projects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
         flex-direction: column; 
         gap: 20px;
         margin-top: 20px;
